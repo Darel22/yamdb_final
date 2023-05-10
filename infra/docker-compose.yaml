@@ -8,7 +8,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: 22darel/yamdb_final:latest
+    image: 22darel/infra_project:latest
     restart: always
     volumes:
       - static_value:/app/static/
